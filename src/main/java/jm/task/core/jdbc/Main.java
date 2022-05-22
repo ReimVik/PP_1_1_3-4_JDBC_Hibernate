@@ -13,10 +13,10 @@ public class Main {
         userService.saveUser("Nikita", "Petrov", (byte) 25);
         userService.saveUser("Igor", "Vasechkin", (byte) 24);
         userService.saveUser("Kirill", "Popov", (byte) 21);
-        /*userService.getAllUsers()
+        userService.getAllUsers()
                         .forEach(System.out::println);
         userService.cleanUsersTable();
-        userService.dropUsersTable();*/
+        userService.dropUsersTable();
 
         /*List<User> users = List.of(
                 new User("Vasiliy", "Ivanov", (byte) 14),
